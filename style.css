@@ -1,0 +1,32 @@
+
+        body{
+            font-family: sans-serif;
+        }
+        .blue{
+            color:rgb(13,154,149);
+        }
+        .navbar{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 15px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo{
+            width: 20%;
+            height: 30%;
+        }
+        .nav-list{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-list li a{
+            text-decoration: none;
+            color:#333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
