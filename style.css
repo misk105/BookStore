@@ -38,12 +38,18 @@
 
         }
         .hero{
+
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
-            padding: 4vw 10vw;
+            padding: 8em 10%;
             gap: 5vw;
+            background-image: url("background.png");
+            background-repeat: no-repeat;
+            background-position: contain;
+            background-size: 1500px;
+
         }
         .hero .text{
             max-width: 40%;
