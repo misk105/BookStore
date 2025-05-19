@@ -1,32 +1,79 @@
 
         body{
+            font-size: 100%;
+            margin: 0;
+            padding: 0;
             font-family: sans-serif;
         }
-        .blue{
-            color:rgb(13,154,149);
-        }
         .navbar{
-            display:flex;
+            display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: white;
-            padding: 15px 40px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+            padding: 0.5rem 1.5vw;
+            box-shadow: 0 0.2rem 0.5rem rgba(13,154,149,0.5);
+
         }
         .logo{
-            width: 20%;
-            height: 30%;
+            width: 6vw;
+            max-width: 4rem;
+            height: auto;
+            margin-left: 5em;
         }
         .nav-list{
             list-style: none;
             display: flex;
-            gap: 20px;
+            gap: 2.5rem;
+
         }
         .nav-list li a{
             text-decoration: none;
-            color:#333;
-            font-weight: 500;
-            transition: color 0.3s;
+            font-size: 1rem;
+            font-weight: 300;
+            color: black;
+        }
+        .icons {
+            display: flex;
+            gap: 1.5rem;
+            margin-right: 5em;
+
+        }
+        .hero{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4vw 10vw;
+            gap: 5vw;
+        }
+        .hero .text{
+            max-width: 40%;
+            min-width: 280px;
+            line-height: 1.5em;
+            font-size: small;
+        }
+        .hero .text h1{
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            line-height: 1.2;
+        }
+        .hero .blue{
+            color:rgb(13,154,149);
+        }
+        .hero button{
+            background-color:rgb(13,154,149);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 3em;
+        }
+        .hero-img{
+            width: 45%;
+            display: flex;
+            justify-content: center;
+        }
+        .hero-img img{
+            max-width: 100%;
+            height: auto;
         }
