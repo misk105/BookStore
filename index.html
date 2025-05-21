@@ -1,11 +1,81 @@
-<html lang="en">
+
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Store</title>
+    <!--لينك لاستدعاء مكتبة تحتوي على الأيقونات-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    
+
 </head>
+
 <body>
+    <header class="navbar">
+        <img src="Pictures/logo.png" class="logo" alt="logo">
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#arrivals">Arrivals</a></li>
+            <li><a href="#reviews">Rewies</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul> 
+        <div class="icons"> 
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-heart"></i>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="text">
+            <h1> WELCOME TO <br> <span class = "blue">BOOK STORE</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem voluptate dolores quidem. Neque sapiente voluptatum fugit repellendus soluta dolorem vitae odit delectus ullam? Dolor, nesciunt facilis. Ipsam, aperiam voluptates.</p>
+            <button class="blue-background">Learn More</button>
+        </div>
+        
+        <div class="hero-img">
+            <img src="Pictures/table.png" alt="picture of books">
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="feature-boxes">
+          <i class="fas fa-shipping-fast"></i><br>
+          <h>Fast Delivery</h>  
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="feature-boxes">
+          <i class="fas fa-headphones-alt"></i><br>
+          <h>24  x 7 Services</h>
+          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>  
+        </div>
+        <div class="feature-boxes">
+            <i class="fas fa-tags"></i><br>
+            <h1>Best Deal</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="feature-boxes">
+            <i class="fas fa-lock"></i><br>
+            <h>Secure Payment</h>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Pictures/about.png" alt="book's img">
+        </div>
+        <div class="about-text">
+            <h1>About Us</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio natus, quis sapiente similique cum suscipit harum ad corrupti iste eius nulla voluptatibus, ab dolore vero porro tempora accusamus sint!. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, molestias necessitatibus! Repudiandae cum voluptas suscipit ut? Neque iusto natus sed pariatur aut quae numquam beatae quod? Aspernatur eius expedita recusandae.
+            </p>
+            <button class="blue-background">Learn More</button>
+        </div>
+    </section>
     <section class="digital-blog">
         <img src="image/banner.jpg" alt="Digital Book Picture" style="width: 100%;"/>
         <!-- This image should be with a different source when uploaded on the remote repo. -->
@@ -21,3 +91,4 @@
     </footer>
 </body>
 </html>
+
