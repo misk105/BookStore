@@ -111,3 +111,43 @@
             font-size: 90%;
         }
 
+        /* -- about section: --*/
+        .about{
+            padding: 8vh 10vw;
+            display: flex;
+            gap: 5vw;
+            justify-content: center;
+        }
+        .about-img{
+            flex: 1 1 40%;
+            text-align: center;
+        }
+        .about-img img{
+            max-width: 100%;
+            height: auto;
+        }
+        .about-text{
+            flex: 1 1 45%;
+        }
+        .about-text h2{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .about-text p{
+            font-size: 1rem;
+            margin-bottom: 3rem;
+            line-height: 1.5;
+        }
+        .about-text h1{
+            font-size: 250%;
+        }
+        .about button{
+            background-color:rgb(13,154,149);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
