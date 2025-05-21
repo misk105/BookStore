@@ -1,3 +1,9 @@
+:root {
+    --primeColor: rgb(13,154,149);
+}
+
+.digital-blog button{
+        background-color: var(--primeColor);
 
         body{
             font-size: 100%;
@@ -72,6 +78,7 @@
             padding: 0.5rem 1rem;
             font-size: 1rem;
             cursor: pointer;
+    }
             margin-top: 3em;
         }
         .hero-img{
