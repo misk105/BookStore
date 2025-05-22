@@ -158,3 +158,28 @@
             cursor: pointer;
         }
 
+/*-----------------------------------Diana----------------------------------------------------*/
+    .digital-button{
+        background-color:var(--primeColor);
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+        position: absolute;
+        bottom: 25%;
+        left: 7%;
+        
+    }
+
+    .digital-blog{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .digital-img{
+            width: 100%;
+            height: auto;
+            display: block;
+    }
