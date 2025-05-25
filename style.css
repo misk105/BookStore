@@ -59,7 +59,7 @@
         justify-content: space-between;
         padding: 8em 10%;
         gap: 5vw;
-        background-image: url("Pictures/background.png");
+        background-image: url("image/background.png");
         background-repeat: no-repeat;
         background-position: contain;
         background-size: 1500px;
@@ -92,8 +92,6 @@
         cursor: pointer;
     }
 
-    margin-top: 3em;
-}
 
 .hero-img {
     width: 45%;
@@ -374,7 +372,60 @@ html {
 
 
 /*-----------------------------------end sara----------------------------------------------------*/
+/*-------------------------------misk-------------------------------------------------------*/
+.reviews{
+    padding: 10rem 2rem;
+    text-align: center;
+    
+}
+.reviews h1{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.card-mixer{
+    display: flex;
+    gap: 2rem;
+    padding-inline: 5%;
+}
+.quote-icon {
+    position: absolute;
+    top: -10rem;
+    right: 1.5rem;
+    font-size: 20rem;
+    color: rgba(0, 0, 0, 0.05); 
+    z-index: 0;
+    pointer-events: none;
+    transform: scale(-1,-1);
+}
+.review-card{
+    border: solid thin rgb(13, 154, 149); 
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    text-align: left;
+    box-shadow: 0rem 0rem 1rem rgb(13, 154, 149, 0.5);
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+.review-card .background-img{
+    text-align: right;
+    height: 3em;
+    width: 4em;
 
+}
+.review-card p{
+    line-height: 1.5em;
+    font-size: 1rem;
+}
+.reviews .img{
+    width: 30%;
+    height: 35%;
+    border-radius: 50%;
+}
+.stars{
+    height: 1.5rem;
+    width: 8rem;
+}
 /*-----------------------------------Diana----------------------------------------------------*/
 .digital-button {
     background-color: var(--primeColor);
