@@ -4,8 +4,6 @@
     --blackColor: black;
 }
 
-.digital-blog button {
-    background-color: var(--primeColor);
 
     body {
         font-size: 100%;
@@ -532,4 +530,6 @@ html {
         width: 80%;
         max-width: none;
     }
+    .digital-blog button {
+    background-color: var(--primeColor);
 }
