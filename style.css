@@ -457,6 +457,7 @@ html {
     text-align: center;
     /* Center the heading */
     padding: 0.5rem 0;
+    margin-bottom: 1em;
 }
 
 .our-blog h1 {
@@ -544,7 +545,7 @@ footer {
     /*position: absolute;*/
     bottom: 0;
     background-color: var(--lightGrey);
-    padding: 1em 0 1em;
+    padding-bottom: 0.3em;
     font-size: 0.9em;
 }
 
@@ -560,7 +561,6 @@ footer {
 
 .col {
     flex-basis: 20%;
-    
 }
 
 
@@ -581,7 +581,6 @@ footer {
 }
 
 
-
 .col h3 {
     /*width: fit-content;*/
     margin-bottom: 2rem;
@@ -596,12 +595,13 @@ ul {
 
 ul li {
     list-style: none;
-    
 }
 
 ul li a {
     text-decoration: none;
     color: var(--blackColor);
+    display: block;
+    margin-bottom: 0.8em;
 }
 
 .social-icons .fab{
