@@ -48,7 +48,7 @@
     .icons {
         display: flex;
         gap: 1.5rem;
-        margin-right: 5em;
+        margin-right: -15em;
 
     }
 
@@ -63,7 +63,7 @@
         background-image: url("image/background.png");
         background-repeat: no-repeat;
         background-position: contain;
-        background-size: 1500px;
+        background-size: cover;
 
     }
 
