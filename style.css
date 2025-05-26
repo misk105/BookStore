@@ -37,14 +37,14 @@
         display: flex;
         gap: 2.5rem;
 
-    }
-
-    .nav-list li a {
+        li a {
         text-decoration: none;
         font-size: 1rem;
         font-weight: 300;
-        color: black;
+        color: var(--blackColor);
     }
+    }
+
 
     .icons {
         display: flex;
@@ -103,12 +103,13 @@
     width: 45%;
     display: flex;
     justify-content: center;
-}
 
-.main-img img {
+    img {
     max-width: 100%;
     height: auto;
 }
+}
+
 
 /*<!-- Features: -->*/
 .feature {
@@ -126,12 +127,12 @@
     box-shadow: 0rem 0rem 1rem rgb(13, 154, 149, 0.5);
     flex: 1 1 17%;
 
-}
-
-.feature-boxes i {
+    i {
     font-size: 2.5rem;
     color: var(--primeColor);
     margin-bottom: 1rem;
+}
+
 }
 
 .feature-boxes h1 {
@@ -154,32 +155,34 @@
 .about-img {
     flex: 1 1 40%;
     text-align: center;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
-.about-img img {
-    max-width: 100%;
-    height: auto;
-}
 
 .about-text {
     flex: 1 1 45%;
-}
 
-.about-text h2 {
+    h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     line-height: 1.6;
-}
-
-.about-text p {
+    }
+    p {
     font-size: 1rem;
     margin-bottom: 3rem;
     line-height: 1.5;
+    }
+
+    h1 {
+    font-size: 250%;
+    }
+
 }
 
-.about-text h1 {
-    font-size: 250%;
-}
 
 .about button {
     background-color: var(--primeColor);
@@ -316,18 +319,21 @@
   padding: 1em;
   text-align: center;
   box-sizing: border-box;
-}
-.card h3 {
+
+  h3 {
   font-size: 1em;
   margin: 0.5em 0;
 }
-.card img {
+
+img {
   box-sizing: border-box;
   height: 15em;
   padding-left: 1em;
   padding-right: 1em;
   width: auto;
 }
+}
+
 .card .author {
   color: var(--darkerGrey);
   font-size: 0.8em;
@@ -341,18 +347,21 @@
 .card .price {
   font-size: 0.9em;
   margin-bottom: 0.6em;
-}
-.card .price .current {
+
+    .current {
   color: var(--blackColor);
   font-weight: bold;
 }
-.card .price .original {
+
+.original {
   color: var(--darkerGrey);
   font-size: 0.8em;
   position: relative;
   text-decoration: line-through;
   top: 0.2em;
 }
+}
+
 .card .details-button {
   background: none;
   border: 0.133em solid  var(--primeColor);
@@ -432,35 +441,39 @@
 }
 .new .stars {
   margin-top: 0.5em;
-}
-.new .stars img {
+
+  img {
   height: auto;
   max-width: 6em;
   width: 100%;
   margin-left: 3.2em;
 }
+}
+
 .details-button-alt {
   background: none;
   border: 0.133em solid  var(--primeColor);
   color: var(--blackColor);
   padding: 0.8em 1.2em;
-}
-.details-button-alt:hover {
+
+  &:hover {
   background:  var(--primeColor);
   color: var(--whiteColor);
-} 
+    } 
+}
+
 /*-----------------------------------end sara----------------------------------------------------*/
 /*-------------------------------misk-------------------------------------------------------*/
 .reviews{
     padding: 10rem 2rem;
     text-align: center;
-    
-}
 
-.reviews h1{
+    h1{
     font-size: 3rem;
     margin-bottom: 4rem;
+    }
 }
+
 
 .card-mixer{
     display: flex;
@@ -564,12 +577,12 @@
     /* Center the heading */
     padding: 0.5rem 0;
     margin-bottom: 1em;
-}
-
-.our-blog h1 {
-    font-size: 2.5rem;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 2rem;
+    
+    h1 {
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 2rem;
+    }
 }
 
 .blog-content {
@@ -590,6 +603,13 @@
     overflow: hidden;
     text-align: left;
     margin-bottom: 1em;
+
+    p {
+    font-size: 0.9rem;
+    margin: 0 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+    }
     
 }
 
@@ -609,12 +629,7 @@
     margin: 1rem 1rem 0.5rem;
 }
 
-.blog-area p {
-    font-size: 0.9rem;
-    margin: 0 1rem 0;
-    line-height: 1.5;
-    text-align: justify;
-}
+
 
 .blog-icons {
     display: flex;
@@ -726,38 +741,38 @@ ul {
     padding-left: 0; 
     margin-left: 0;
     list-style-position: inside;
-}
 
-ul li {
+    li {
     list-style: none;
+
+        a {
+        text-decoration: none;
+        color: var(--blackColor);
+        display: block;
+        margin-bottom: 0.8em;
+        }
+    }
 }
 
-ul li a {
-    text-decoration: none;
-    color: var(--blackColor);
-    display: block;
-    margin-bottom: 0.8em;
-}
 
-.social-icons .fab{
+ul li 
+
+.social-icons {
+    .fab{
     text-align: center;
     cursor: pointer;
-}
+    }
 
-.social-icons i {
+    i {
     margin: 0.4em;
     cursor: pointer;
+    }
 }
 
-form {
-    /*display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /*border: 0;*/
-   /* outline: none;*/
-}
 
-form input {
+form
+{
+    input {
     background-color: var(--darkGrey);
     color: var(--darkerGrey);
     border: 0;
@@ -765,9 +780,9 @@ form input {
     height: 1.9em;
     border-radius: 0.9em;
     outline: none;
-}
+    }
 
-form button {
+    button {
     color: var(--whiteColor);
     background-color: var(--primeColor);
     border: 0;
@@ -778,15 +793,18 @@ form button {
     text-align: center;
     margin-top: 0.3em;
     cursor: pointer;
-}
+    }
+} 
 
 .copyright {
     text-align: center;
+
+    .copyright-company {
+    color: var(--primeColor);
+    }
 }
 
-.copyright-company {
-    color: var(--primeColor);
-}
+
 
 @media (max-width: 700px)
 {
