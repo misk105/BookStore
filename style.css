@@ -284,7 +284,7 @@ html {
 
 .books-section::-webkit-scrollbar-thumb {
     border-radius: 0.3em;
-    background-color: #0f9797;
+    background-color: var(--primeColor);
 
 }
 
@@ -325,8 +325,8 @@ html {
     width: 90%;
     max-width: 12em;
     text-align: center;
-    border: 0.1em solid black;
-    background-color: white;
+    border: 0.1em solid var(--blackColor);
+    background-color: var(--whiteColor);
 
 }
 
@@ -338,7 +338,7 @@ html {
 
 .new .title {
     margin-top: 0.5em;
-    color: #3a3a3a;
+    color: var(--blackColor);
     font-size: 1em;
 
 }
