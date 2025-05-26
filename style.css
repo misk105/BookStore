@@ -807,7 +807,7 @@ form button {
         margin-bottom: 1em;
     }
 
-    .col li :first-of-type {
+    .first-prime {
         color: var(--primeColor);
     }
 
