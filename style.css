@@ -544,12 +544,12 @@ footer {
     /*position: absolute;*/
     bottom: 0;
     background-color: var(--lightGrey);
-    padding: 100px 20px 30px;
+    padding: 1em 0 1em;
     font-size: 0.9em;
 }
 
 .row {
-    width: 85%;
+    width: 95%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -560,12 +560,22 @@ footer {
 
 .col {
     flex-basis: 20%;
-    padding: 10px;
+    /*padding: auto;*/
+    /*overflow: hidden;*/
 }
+
 
 .logo {
     width: 80rem; 
+    float: left;
 }
+
+.justified-text {
+  text-align: justify;
+  margin: 0;
+}
+
+
 
 .col h3 {
     width: fit-content;
@@ -591,15 +601,23 @@ form {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /*border: 0;*/
+    outline: none;
 }
 
 form input {
     background-color: var(--darkGrey);
     color: var(--darkerGrey);
-
+    border: 0;
+    border-radius: 0.8em;
+    outline: none;
 }
 
 form button {
     color: var(--whiteColor);
     background-color: var(--primeColor);
+    border: 0;
+    border-radius: 0.8em;
+    outline: none;
+    cursor: pointer;
 }
