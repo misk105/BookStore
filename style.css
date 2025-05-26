@@ -560,14 +560,19 @@ footer {
 
 .col {
     flex-basis: 20%;
-    /*padding: auto;*/
-    /*overflow: hidden;*/
+    
 }
 
 
 .logo {
-    width: 80rem; 
-    float: left;
+    width: 5rem;
+    align-self: flex-start !important;
+    margin-right: auto; 
+    margin-bottom: 10px;
+}
+
+.logo-div {
+    margin: 0.5em;
 }
 
 .justified-text {
@@ -578,13 +583,20 @@ footer {
 
 
 .col h3 {
-    width: fit-content;
+    /*width: fit-content;*/
     margin-bottom: 2rem;
     position: relative;
 }
 
+ul {
+    padding-left: 0; 
+    margin-left: 0;
+    list-style-position: inside;
+}
+
 ul li {
     list-style: none;
+    
 }
 
 ul li a {
