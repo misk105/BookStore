@@ -2,6 +2,9 @@
     --primeColor: rgb(13, 154, 149);
     --whiteColor: white;
     --blackColor: black;
+    --lightGrey: #EAEAEA;
+    --darkGrey: #CACACA;
+    --darkerGrey: #7F7F80;
 }
 
 
@@ -182,7 +185,7 @@
 
 /*-----------------------------------sara----------------------------------------------------*/
 
-html {
+.html {
     font-size: 16px;
 }
 
@@ -454,6 +457,7 @@ html {
     text-align: center;
     /* Center the heading */
     padding: 0.5rem 0;
+    margin-bottom: 1em;
 }
 
 .our-blog h1 {
@@ -531,5 +535,134 @@ html {
     }
     .digital-blog button {
     background-color: var(--primeColor);
+    }
 }
+
+/*---------------------------------Footer-Diana------------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    /*position: absolute;*/
+    bottom: 0;
+    background-color: var(--lightGrey);
+    padding-bottom: 0.3em;
+    font-size: 0.9em;
+}
+
+.row {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.col {
+    flex-basis: 15%;
+}
+
+
+.logo {
+    width: 5rem;
+    align-self: flex-start; 
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+}
+
+.justified-text {
+  text-align: justify;
+  line-height: 1.3em;
+  margin: 0;
+}
+
+
+.col h3 {
+    /*width: fit-content;*/
+    margin-bottom: 1.7rem;
+    position: relative;
+    font-size: 1.5em;
+}
+
+ul {
+    padding-left: 0; 
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--blackColor);
+    display: block;
+    margin-bottom: 0.8em;
+}
+
+.social-icons .fab{
+    text-align: center;
+    cursor: pointer;
+}
+
+.social-icons i {
+    margin: 0.4em;
+    cursor: pointer;
+}
+
+form {
+    /*display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 0;*/
+   /* outline: none;*/
+}
+
+form input {
+    background-color: var(--darkGrey);
+    color: var(--darkerGrey);
+    border: 0;
+    width: 14em;
+    height: 1.9em;
+    border-radius: 0.9em;
+    outline: none;
+}
+
+form button {
+    color: var(--whiteColor);
+    background-color: var(--primeColor);
+    border: 0;
+    border-radius: 0.9em;
+    outline: none;
+    width: 6em;
+    height: 1.8em;
+    text-align: center;
+    margin-top: 0.3em;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright-company {
+    color: var(--primeColor);
+}
+
+@media (max-width: 700px)
+{
+    footer{
+        bottom: unset;
+    }
+    .col{
+        flex-basis: 100%;
+    }
 }
