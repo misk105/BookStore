@@ -633,3 +633,11 @@ form button {
     outline: none;
     cursor: pointer;
 }
+
+.copyright {
+    text-align: center;
+}
+
+.copyright-company {
+    color: var(--primeColor);
+}
