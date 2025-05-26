@@ -362,8 +362,8 @@ html {
 }
 
 .details-button-alt:hover {
-    color: white;
-    background: #0f9797;
+    color: var(--whiteColor);
+    background: var(--primeColor);
 
 }
 
@@ -396,7 +396,7 @@ html {
     transform: scale(-1,-1);
 }
 .review-card{
-    border: solid thin rgb(13, 154, 149); 
+    border: solid thin var(--primeColor); 
     padding: 1.5rem;
     text-align: left;
     box-shadow: 0rem 0rem 1rem rgb(13, 154, 149, 0.5);
