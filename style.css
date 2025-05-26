@@ -526,7 +526,7 @@
     position: absolute;
     bottom: 25%;
     left: 7%;
-
+    max-width: 90%;
 }
 
 .digital-blog {
@@ -569,6 +569,8 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     text-align: left;
+    margin-bottom: 1em;
+    
 }
 
 .blog-image {
@@ -611,7 +613,6 @@
     color: var(--primeColor);
 }
 
-/* Responsivness for smaller screens */
 @media (max-width: 768px) {
     .blog-content {
         flex-direction: column;
@@ -625,6 +626,22 @@
     .digital-blog button {
     background-color: var(--primeColor);
     }
+
+    .digital-img {
+        width: 40%;
+
+    }
+    
+}
+    
+    .digital-button {
+        font-size: 0.9rem;
+        bottom: 10%;
+        left: 40%;
+        padding: 0.3rem 0.5rem;
+    }
+}
+
 }
 
 /*---------------------------------Footer-Diana------------------------------------------------------------------*/
