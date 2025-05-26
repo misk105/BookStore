@@ -804,9 +804,11 @@ form button {
     }
     .col{
         flex-basis: 45%;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
     }
 
-    
+    .col li :first-of-type {
+        color: var(--primeColor);
+    }
 
 }
