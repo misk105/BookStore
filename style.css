@@ -538,7 +538,7 @@
     }
 }
 
-/*---------------------------------Footer------------------------------------------------------------------*/
+/*---------------------------------Footer-Diana------------------------------------------------------------------*/
 
 footer {
     width: 100%;
@@ -566,17 +566,20 @@ footer {
 
 .logo {
     width: 5rem;
-    /*align-self: flex-start !important;
-    margin-right: auto; 
-    margin-bottom: 10px;*/
+    align-self: flex-start; 
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .logo-div {
+    display: flex;
+    flex-direction: column;
     margin: 0.5em;
 }
 
 .justified-text {
   text-align: justify;
+  line-height: 1.3em;
   margin: 0;
 }
 
