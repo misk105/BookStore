@@ -535,6 +535,13 @@
     height: auto;
 }
 
+.warrper {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
+
 .digital-img {
     width: 100%;
     height: auto;
@@ -625,21 +632,24 @@
     }
     .digital-blog button {
     background-color: var(--primeColor);
+    margin-bottom: 1em;
     }
 
     .digital-img {
-        width: 40%;
-
+        object-fit: cover;
+        object-position: left center; 
+        width: 210%; 
+        max-width: none;
     }
-    
-}
-    
+
     .digital-button {
         font-size: 0.9rem;
         bottom: 10%;
         left: 40%;
         padding: 0.3rem 0.5rem;
     }
+}
+    
 }
 
 }
