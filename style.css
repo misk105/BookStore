@@ -560,15 +560,15 @@ footer {
 }
 
 .col {
-    flex-basis: 20%;
+    flex-basis: 15%;
 }
 
 
 .logo {
     width: 5rem;
-    align-self: flex-start !important;
+    /*align-self: flex-start !important;
     margin-right: auto; 
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
 }
 
 .logo-div {
@@ -612,6 +612,7 @@ ul li a {
 
 .social-icons i {
     margin: 0.4em;
+    cursor: pointer;
 }
 
 form {
