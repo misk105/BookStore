@@ -293,195 +293,163 @@
     }
 }
 /*-----------------------------------sara----------------------------------------------------*/
-
-.html {
-    font-size: 16px;
+#featured,
+#arrivals {
+  background-color:var(--whiteColor);
+  font-family: sans-serif;
 }
-
-.sara body {
-    margin: 0;
-    padding: 1em;
-    font-family: Arial, sans-serif;
-    background-color: var(--whiteColor);
+#featured > h1,
+#arrivals > h1 {
+  color: var(--blackColor);
+  font-size: 2.5em;
+  margin: 1em 0;
+  text-align: center;
 }
-
-.sara h1 {
-    color: var(--blackColor);
-    text-align: center;
-}
-
 /* ------------------------------------BOOKS ------------------------------*/
 .card {
-    margin-right: 1em;
-    padding: 1em;
-    text-align: center;
-    font-family: sans-serif;
-    border: 0.1em solid var(--blackColor);
-    width: 12.5em;
-    background: var(--whiteColor);
-    flex: 0 0 auto;
+  background: var(--whiteColor);
+  border: 0.12em solid var(--blackColor);
+  flex-basis: auto;
+  flex-grow: 1;
+  font-family:sans-serif;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  box-sizing: border-box;
 }
-
 .card h3 {
-    margin: 0.5em 0;
-    font-size: 1em;
-
+  font-size: 1em;
+  margin: 0.5em 0;
 }
-
 .card img {
-    margin-bottom: 0.75em;
-    height:22em;
-    width: 100%;
-
-
+  box-sizing: border-box;
+  height: 15em;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: auto;
 }
-
 .card .author {
-    color: #8d8d8d;
-    font-size: 0.874em;
-    margin-bottom: 0.25em;
+  color: var(--darkerGrey);
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
 }
-
 .card .type {
-    margin-bottom: 0.5em;
-    color: var(--primeColor);
-    font-size: 0.812em;
+  color: var(--primeColor);
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
 }
-
 .card .price {
-    font-size: 0.87em;
-    margin-bottom: 0.625em;
+  font-size: 0.9em;
+  margin-bottom: 0.6em;
 }
-
 .card .price .current {
-    margin-right: 0.37em;
-    color: var(--blackColor);
-    font-weight: bold;
+  color: var(--blackColor);
+  font-weight: bold;
 }
-
 .card .price .original {
-    color: #a8a8a8;
-    font-size: 0.8em;
-    text-decoration: line-through;
-    position: relative;
-    top: 0.2em;
+  color: var(--darkerGrey);
+  font-size: 0.8em;
+  position: relative;
+  text-decoration: line-through;
+  top: 0.2em;
 }
-
 .card .details-button {
-    padding: 0.37em 0.77em;
-    border: 0.062em solid var(--primeColor);
-    background: none;
-    color: var(--blackColor);
-
-
-
+  background: none;
+  border: 0.133em solid  var(--primeColor);
+  color: var(--blackColor);
+  padding: 0.8em 1.2em;
 }
-
-.card .details-button:hover {
-    color: var(--whiteColor);
-    background: var(--primeColor);
+.card .details-button:hover
+ {
+  background: var(--primeColor);
+  color:var(--whiteColor);
 }
-
 .books-section {
-    padding: 1em;
-    display: flex;
-    overflow-x: auto;
-    gap: 0.62 em;
+  display: flex;
+  gap: 2.5em;
+  margin-bottom: 7em;
+  margin-top: 0;
+  overflow-x: scroll;
+  padding: 1em;
 }
-
 .books-section::-webkit-scrollbar {
-    height: 0.4em;
-
+  height: 0.6em;
 }
-
 .books-section::-webkit-scrollbar-thumb {
-    border-radius: 0.3em;
-    background-color: var(--primeColor);
-
+  background-color:  var(--primeColor);
+  border-radius: 3em;
 }
-
 .books-section::-webkit-scrollbar-track {
-    border-radius: 0.3em;
-    background-color: #dbd3d3ee;
-
-
+  background-color:  var(--darkGrey);
+  border-radius: 3em;
 }
-
-
 /* ------------------------------------ Arrivals ------------------------------*/
-
 .new-arrivals {
-    justify-items: center;
-    display: grid;
+  display: grid;
+  gap: 4em;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+@media (min-width: 400px) {
+  .new-arrivals {
     grid-template-columns: repeat(1, 1fr);
-    gap: 1em;
-
+  }
 }
 
-
-@media (min-width:375px) {
-    .new-arrivals {
-        grid-template-columns: repeat(3, 1fr);
-    }
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .new-arrivals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ .new-arrivals .last {
+    grid-column: 1 / -1;
+  }
 }
 
-@media (min-width: 1024px) {
-    .new-arrivals {
-        grid-template-columns: repeat(5, 1fr);
-    }
+@media (min-width:1301px) {
+  .new-arrivals {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
-
-
 .new {
-    padding: 1.8em;
-    width: 90%;
-    max-width: 12em;
-    text-align: center;
-    border: 0.1em solid var(--blackColor);
-    background-color: var(--whiteColor);
-
+  background-color: var(--whiteColor);
+  border: 0.12em solid  var(--blackColor);
+  padding: 1em;
+  text-align: center;
+  width: 12.5em;
 }
-
 .new img.book {
-    width: 100%;
-    height: auto;
-
+  box-sizing: border-box;
+  height: 15em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  width: auto;
 }
-
 .new .title {
-    margin-top: 0.5em;
-    color: var(--blackColor);
-    font-size: 1em;
-
+  color:rgb(77, 76, 76);
+  font-size: 0.9em;
+  margin-top: 0.5em;
 }
-
 .new .stars {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
-
 .new .stars img {
-    height: auto;
-    width: 100%;
-    max-width: 6 em;
-
+  height: auto;
+  max-width: 6em;
+  width: 100%;
+  margin-left: 3.2em;
 }
-
 .details-button-alt {
-    padding: 0.37em 0.75em;
-    border: 0.0625em solid #0f9797;
-    color: black;
-    background: none;
+  background: none;
+  border: 0.133em solid  var(--primeColor);
+  color: var(--blackColor);
+  padding: 0.8em 1.2em;
 }
-
 .details-button-alt:hover {
-    color: var(--whiteColor);
-    background: var(--primeColor);
-
-}
-
-
-
-/*-----------------------------------end sara----------------------------------------------------*/
+  background:  var(--primeColor);
+  color: var(--whiteColor);
+} 
+/*-----------------------------------end sara----------------------------------------------------
 /*-------------------------------misk-------------------------------------------------------*/
 .reviews{
     padding: 10rem 2rem;
