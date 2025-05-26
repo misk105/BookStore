@@ -533,6 +533,7 @@
     position: relative;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 .warrper {
@@ -643,6 +644,10 @@
         object-position: left center; 
         width: 210%; 
         max-width: none;
+    }
+
+    html, body {
+        overflow-x: hidden;
     }
 
     .digital-button {
