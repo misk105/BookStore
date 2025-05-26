@@ -16,6 +16,7 @@
     <header class="navbar">
         <img src="image/logo.png" class="logo" alt="logo">
         <ul class="nav-list">
+            <li><span class="close" onclick="toggleMenu()">✖</span></li>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#featured">Featured</a></li>
@@ -26,6 +27,9 @@
         <div class="icons">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="menu" onclick="toggleMenu()">
+            ☰
         </div>
     </header>
 
@@ -541,6 +545,12 @@
         <p class="copyright">Design By <span class="copyright-company"><i class="fa-solid fa-face-smile"></i> WT Master
                 Code</span></p>
     </footer>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-list").classList.toggle("show");
+            document.querySelector(".overlay").classList.toggle("active");
+        }
+    </script>
 </body>
 
 </html>
