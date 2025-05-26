@@ -2,7 +2,9 @@
     --primeColor: rgb(13, 154, 149);
     --whiteColor: white;
     --blackColor: black;
-    --grey: #EAEAEA;
+    --lightGrey: #EAEAEA;
+    --darkGrey: #CACACA;
+    --darkerGrey: #7F7F80;
 }
 
 
@@ -541,7 +543,7 @@ footer {
     width: 100%;
     /*position: absolute;*/
     bottom: 0;
-    background-color: var(--grey);
+    background-color: var(--lightGrey);
     padding: 100px 20px 30px;
     font-size: 0.9em;
 }
@@ -561,7 +563,21 @@ footer {
     padding: 10px;
 }
 
-.col a {
+.logo {
+    width: 80rem; 
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
     text-decoration: none;
     color: var(--blackColor);
 }
@@ -569,4 +585,21 @@ footer {
 .social-icons .fab{
     text-align: center;
     cursor: pointer;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input {
+    background-color: var(--darkGrey);
+    color: var(--darkerGrey);
+
+}
+
+form button {
+    color: var(--whiteColor);
+    background-color: var(--primeColor);
 }
