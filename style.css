@@ -383,11 +383,11 @@ html {
 .card-mixer{
     display: flex;
     gap: 2rem;
-    padding-inline: 5%;
+    padding-inline: 2%;
 }
 .quote-icon {
     position: absolute;
-    top: -10rem;
+    top: -13rem;
     right: 1.5rem;
     font-size: 20rem;
     color: rgba(0, 0, 0, 0.05); 
@@ -398,7 +398,6 @@ html {
 .review-card{
     border: solid thin rgb(13, 154, 149); 
     padding: 1.5rem;
-    padding-bottom: 3rem;
     text-align: left;
     box-shadow: 0rem 0rem 1rem rgb(13, 154, 149, 0.5);
     width: 25%;
