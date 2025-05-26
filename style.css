@@ -487,10 +487,12 @@
     text-align: center;
     
 }
+
 .reviews h1{
     font-size: 3rem;
     margin-bottom: 4rem;
 }
+
 .card-mixer{
     display: flex;
     gap: 2rem;
@@ -509,7 +511,7 @@
 .review-card{
     border: solid thin var(--primeColor); 
     padding: 1.5rem;
-    text-align: left;
+    text-align: justify;
     box-shadow: 0rem 0rem 1rem rgb(13, 154, 149, 0.5);
     width: 25%;
     position: relative;
