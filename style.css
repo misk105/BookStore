@@ -577,8 +577,8 @@
     flex-wrap: wrap;
     justify-content: center; 
     gap: 1rem;
-    /*justify-content: space-evenly;
-    padding: 0 1rem;*/
+    justify-content: space-evenly;
+    /*padding: 0 1rem;*/
 }
 
 .blog-area {
