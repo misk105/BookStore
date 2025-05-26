@@ -113,14 +113,14 @@
 .feature-boxes {
     text-align: center;
     padding: 1rem;
-    border: thin solid rgb(13, 154, 149);
+    border: thin solid var(--primeColor);
     box-shadow: 0rem 0rem 1rem rgb(13, 154, 149, 0.5);
 
 }
 
 .feature-boxes i {
     font-size: 2.5rem;
-    color: rgb(13, 154, 149);
+    color: var(--primeColor);
     margin-bottom: 1rem;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .about button {
-    background-color: rgb(13, 154, 149);
+    background-color: var(--primeColor);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -190,11 +190,11 @@ html {
     margin: 0;
     padding: 1em;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: var(--whiteColor);
 }
 
 .sara h1 {
-    color: black;
+    color: var(--blackColor);
     text-align: center;
 }
 
@@ -204,7 +204,7 @@ html {
     padding: 1em;
     text-align: center;
     font-family: sans-serif;
-    border: 0.1em solid black;
+    border: 0.1em solid var(--blackColor);
     width: 12.5em;
     background: white;
     flex: 0 0 auto;
