@@ -48,7 +48,7 @@
     .icons {
         display: flex;
         gap: 1.5rem;
-        margin-right: -15em;
+        margin-right: 1em;
 
     }
 
@@ -535,6 +535,16 @@
 .stars{
     height: 1.5rem;
     width: 8rem;
+}
+
+@media(max-width:415px) {
+    .card-mixer {
+        flex-wrap: wrap;
+    }
+
+    .review-card {
+        flex: 1 1 100%
+    }
 }
 /*-----------------------------------Diana----------------------------------------------------*/
 .digital-button {
