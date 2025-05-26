@@ -628,8 +628,8 @@ form input {
     color: var(--darkerGrey);
     border: 0;
     width: 14em;
-    height: 1.6em;
-    border-radius: 0.8em;
+    height: 1.9em;
+    border-radius: 0.9em;
     outline: none;
 }
 
@@ -637,10 +637,10 @@ form button {
     color: var(--whiteColor);
     background-color: var(--primeColor);
     border: 0;
-    border-radius: 0.8em;
+    border-radius: 0.9em;
     outline: none;
     width: 6em;
-    height: 1.6em;
+    height: 1.8em;
     text-align: center;
     margin-top: 0.3em;
     cursor: pointer;
