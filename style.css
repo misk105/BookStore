@@ -206,7 +206,7 @@ html {
     font-family: sans-serif;
     border: 0.1em solid var(--blackColor);
     width: 12.5em;
-    background: white;
+    background: var(--whiteColor);
     flex: 0 0 auto;
 }
 
@@ -232,7 +232,7 @@ html {
 
 .card .type {
     margin-bottom: 0.5em;
-    color: #0f9797;
+    color: var(--primeColor);
     font-size: 0.812em;
 }
 
@@ -243,7 +243,7 @@ html {
 
 .card .price .current {
     margin-right: 0.37em;
-    color: black;
+    color: var(--blackColor);
     font-weight: bold;
 }
 
@@ -257,17 +257,17 @@ html {
 
 .card .details-button {
     padding: 0.37em 0.77em;
-    border: 0.062em solid #0f9797;
+    border: 0.062em solid var(--primeColor);
     background: none;
-    color: black;
+    color: var(--blackColor);
 
 
 
 }
 
 .card .details-button:hover {
-    color: white;
-    background: #0f9797;
+    color: var(--whiteColor);
+    background: var(--primeColor);
 }
 
 .books-section {
