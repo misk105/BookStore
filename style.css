@@ -641,3 +641,13 @@ form button {
 .copyright-company {
     color: var(--primeColor);
 }
+
+@media (max-width: 700px)
+{
+    footer{
+        bottom: unset;
+    }
+    .col{
+        flex-basis: 100%;
+    }
+}
