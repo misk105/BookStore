@@ -265,6 +265,32 @@
     }
 
 }
+
+@media (max-width: 576px) {
+    .main .text h1 {
+        font-size: 2rem;
+    }
+
+    .feature-boxes {
+        flex: 1 1 35%;
+    }
+
+    .nav-list li a {
+        font-size: 0.9rem;
+    }
+
+    .icons i {
+        font-size: 1rem;
+    }
+
+    .about-text h1 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+    }
+}
 /*-----------------------------------sara----------------------------------------------------*/
 
 .html {
