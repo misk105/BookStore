@@ -546,7 +546,27 @@ footer {
     font-size: 0.9em;
 }
 
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.col {
+    flex-basis: 20%;
+    padding: 10px;
+}
+
 .col a {
     text-decoration: none;
     color: var(--blackColor);
+}
+
+.social-icons .fab{
+    text-align: center;
+    cursor: pointer;
 }
