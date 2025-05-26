@@ -794,11 +794,10 @@ form button {
         justify-content: space-between;
     }
     .col{
-        flex-basis: 48%;
+        flex-basis: 45%;
         margin-bottom: 1.5em;
     }
 
-
-
+    
 
 }
