@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Store</title>
-    <!--لينك لاستدعاء مكتبة تحتوي على الأيقونات-->
+<!-- Calling a library for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
 
 </head>
 
@@ -16,20 +15,16 @@
     <header class="navbar">
         <img src="image/logo.png" class="logo" alt="logo">
         <ul class="nav-list">
-            <li><span class="close" onclick="toggleMenu()">✖</span></li>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#featured">Featured</a></li>
             <li><a href="#arrivals">Arrivals</a></li>
-            <li><a href="#reviews">Rewies</a></li>
+            <li><a href="#reviews">Reviews</a></li>
             <li><a href="#blog">Blog</a></li>
         </ul>
         <div class="icons">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-heart"></i>
-        </div>
-        <div class="menu" onclick="toggleMenu()">
-            ☰
         </div>
     </header>
 
@@ -87,7 +82,7 @@
         </div>
     </section>
 
-    <!-----------------------------------sara------------------------------->
+       <!-----------------------------------sara------------------------------->
 
     <section id="featured">
 
@@ -374,7 +369,7 @@
                 <button class="details-button-alt">Learn More</button>
             </div>
 
-            <div class="new arrival-item10">
+            <div class="new  last arrival-item10">
                 <img src="image/arrival_10.jpg" alt="arrival10" class="book">
                 <div class="title">New Arrivals</div>
                 <div class="stars">
@@ -454,8 +449,13 @@
 
     <section class="digital-blog">
         <button class="blue-background digital-button">Learn More</button>
-        <img class="digital-img" src="image/banner.jpg" alt="Digital Book Picture" />
+        <div class="warpper">
+            <img class="digital-img" src="image/banner.jpg" alt="Digital Book Picture" />
+        </div>
+       
     </section>
+
+
 
     <section class="our-blog" id="blog">
         <h1>Our Blog</h1>
@@ -493,7 +493,6 @@
                     <span class="heart-icon"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -510,7 +509,7 @@
             <div class="col">
                 <h3>Quick Link</h3>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home" class="first-prime">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#featured">Featured</a></li>
                     <li><a href="#arrivals">Arrivals</a></li>
@@ -538,19 +537,11 @@
                     <input type="email" placeholder="  You email id here" required> 
                     <br>
                     <button type="submit">Subscribe</button>
-
                 </form>
             </div>
         </div>
-        <p class="copyright">Design By <span class="copyright-company"><i class="fa-solid fa-face-smile"></i> WT Master
-                Code</span></p>
+        <p class="copyright">Design By <span class="copyright-company"><i class="fa-solid fa-face-smile"></i> WT Master Code</span></p>
     </footer>
-    <script>
-        function toggleMenu() {
-            document.querySelector(".nav-list").classList.toggle("show");
-            document.querySelector(".overlay").classList.toggle("active");
-        }
-    </script>
 </body>
 
 </html>
