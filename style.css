@@ -72,6 +72,10 @@
         display:none;
     }
 
+
+.mobile-nav-overlay.show {
+    display: flex;
+}
     .main .text {
         max-width: 40%;
         min-width: 280px;
@@ -199,6 +203,8 @@
     cursor: pointer;
 }
 
+
+
 @media (max-width: 1200px) {
     .main {
         text-align: center;
@@ -294,6 +300,12 @@
     .about-text p {
         font-size: 0.9rem;
     }
+
+    .close{
+        display:block;
+    }
+    
+    
 }
 /*-----------------------------------sara----------------------------------------------------*/
 #featured,
